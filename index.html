@@ -3,6 +3,10 @@
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
   </head>
 
   <body>
@@ -27,12 +31,13 @@
       <!-- Main content -->
       <div style="display: flex; flex-flow: row nowrap;">
         <!-- Main Left column -->
-        <div style="flex: 0 0 400px;">
+        <div style="flex: 0 0 400px; height: 630px;">
           <h2>Welcome, Aleksander!</h2>
           <h4>All notifications</h4>
 
           <!-- Notifications Container -->
           <div
+          class="box"
             style="
               display: flex;
               flex-flow: row nowrap;
@@ -46,6 +51,7 @@
             <h4>Book a viewing in Fredensborgveien 13</h4>
           </div>
           <div
+          class="box"
             style="
               display: flex;
               flex-flow: row nowrap;
@@ -59,6 +65,7 @@
             <h4>Book a viewing in Fredensborgveien 13</h4>
           </div>
           <div
+          class="box"
             style="
               display: flex;
               flex-flow: row nowrap;
@@ -77,16 +84,17 @@
           style="
             flex: 0 0 800px;
             margin-left: 32px;
-            height: 600px;
+            height: 630px;
             display: flex;
             flex-flow: row wrap;
             justify-content: space-between;
             align-content: space-between;
-            background-color: lightgoldenrodyellow;
+            /* background-color: lightgoldenrodyellow; */
           "
         >
           <!-- Main Right Top Box  -->
           <div
+          class="box"
             style="
               flex: 0 0 768px;
               display: flex;
@@ -94,35 +102,117 @@
               align-items: center;
               padding: 0px 16px 0px 16px;
               background-color: lightskyblue;
+              background-image: url('./images/stovner11.png');
+              background-position: center;
+              background-repeat: no-repeat; 
+              background-size: cover;
               height: 392px;
             "
-          ></div>
+          >
+          <!-- <img src="images/stovner11.png" /> -->
+        </div>
 
           <!-- Main Right Sub Left Box -->
           <div
+          class="box"
             style="
-              flex: 0 0 360px;
-              display: flex;
-              flex-flow: row nowrap;
-              align-items: center;
-              padding: 0px 16px 0px 16px;
+              flex: 0 0 328px;
+              padding: 0px 32px 0px 32px;
               background-color: lightgrey;
-              height: 192px;
+              height: 222px;
             "
-          ></div>
+          >
+            <h2>Shortcuts</h2>
+            <ul
+              style="
+                list-style-type: none;
+                padding-inline-start: 0px;
+                line-height: 30px;
+              "
+            >
+              <li>
+                <a href="" style="color: black;"
+                  >Contact us
+                  <i
+                    class="material-icons"
+                    style="font-size: 32px; vertical-align: bottom;"
+                    >keyboard_arrow_right</i
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="" style="color: black;"
+                  >Change your contact information
+                  <i
+                    class="material-icons"
+                    style="font-size: 32px; vertical-align: bottom;"
+                    >keyboard_arrow_right</i
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="" style="color: black;"
+                  >Book a viewing
+                  <i
+                    class="material-icons"
+                    style="font-size: 32px; vertical-align: bottom;"
+                    >keyboard_arrow_right</i
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="" style="color: black;"
+                  >Find similar apartments
+                  <i
+                    class="material-icons"
+                    style="font-size: 32px; vertical-align: bottom;"
+                    >keyboard_arrow_right</i
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
 
           <!-- Main Right Sub Right Box -->
           <div
+          class="box"
             style="
-              flex: 0 0 360px;
-              display: flex;
-              flex-flow: row nowrap;
-              align-items: center;
-              padding: 0px 16px 0px 16px;
+              flex: 0 0 328px;
+              padding: 0px 32px 0px 32px;
               background-color: lightgrey;
-              height: 192px;
+              height: 222px;
             "
-          ></div>
+          >
+            <h2>Contact for this appartment</h2>
+            <div style="float: left;">
+              <img src="images/therese.png" />
+            </div>
+            <div style="float: left; margin-left: 16px;">
+              <h2 style="margin: 0px 0px 8px 0px;">Therese Johansson</h2>
+              <ul
+              style="
+                list-style-type: none;
+                padding-inline-start: 0px;
+                margin: 0px;
+                line-height: 30px;
+              ">
+              <li>
+                  <i
+                  class="material-icons"
+                  style="font-size: 24px; vertical-align: middle; margin-right: 24px"
+                  >phone</i>
+                  0047 904 70 709
+              </li>
+              <li>
+                  <i
+                  class="material-icons"
+                  style="font-size: 24px; vertical-align: middle;"
+                  >mail_outlined</i>
+                  kontakt@heimstaden.no
+              </li>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
