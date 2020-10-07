@@ -6,7 +6,9 @@
   </head>
 
   <body>
+    <!-- Main cointainer -->
     <div style="margin: auto; width: 1232px;">
+      <!-- Top header bar -->
       <div
         style="
           display: flex;
@@ -19,14 +21,17 @@
         "
       >
         <h1 style="color: orange;">Heimstaden</h1>
-        <!-- <h4>Menu</h4> -->
         <h4>Logout</h4>
       </div>
 
+      <!-- Main content -->
       <div style="display: flex; flex-flow: row nowrap;">
+        <!-- Main Left column -->
         <div style="flex: 0 0 400px;">
           <h2>Welcome, Aleksander!</h2>
           <h4>All notifications</h4>
+
+          <!-- Notifications Container -->
           <div
             style="
               display: flex;
@@ -67,17 +72,60 @@
             <h4>Book a viewing in Fredensborgveien 13</h4>
           </div>
         </div>
+        <!-- Main Right column -->
         <div
           style="
             flex: 0 0 800px;
             margin-left: 32px;
-            background-color: lightgrey;
             height: 600px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-content: space-between;
+            background-color: lightgoldenrodyellow;
           "
-        ></div>
+        >
+          <!-- Main Right Top Box  -->
+          <div
+            style="
+              flex: 0 0 768px;
+              display: flex;
+              flex-flow: row nowrap;
+              align-items: center;
+              padding: 0px 16px 0px 16px;
+              background-color: lightskyblue;
+              height: 392px;
+            "
+          ></div>
+
+          <!-- Main Right Sub Left Box -->
+          <div
+            style="
+              flex: 0 0 360px;
+              display: flex;
+              flex-flow: row nowrap;
+              align-items: center;
+              padding: 0px 16px 0px 16px;
+              background-color: lightgrey;
+              height: 192px;
+            "
+          ></div>
+
+          <!-- Main Right Sub Right Box -->
+          <div
+            style="
+              flex: 0 0 360px;
+              display: flex;
+              flex-flow: row nowrap;
+              align-items: center;
+              padding: 0px 16px 0px 16px;
+              background-color: lightgrey;
+              height: 192px;
+            "
+          ></div>
+        </div>
       </div>
     </div>
-
     <script src="src/index.ts"></script>
     <script src="src/main.css"></script>
   </body>
